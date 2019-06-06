@@ -204,6 +204,7 @@ public class CarControl extends AppCompatActivity {
     private void sendPID(){
         //get data from seekbars
         String command = kp_val + "|" + ki_val + "|" + kd_val + "|";
+        Log.d(COMMAND,command);
 
         //send data
         sendData(command);
