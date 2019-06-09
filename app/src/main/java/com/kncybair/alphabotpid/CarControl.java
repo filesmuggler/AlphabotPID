@@ -174,8 +174,6 @@ public class CarControl extends AppCompatActivity {
             }
         }));
 
-
-
         // Call the class to connect
         new ConnectBT().execute();
 
